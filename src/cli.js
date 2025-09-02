@@ -25,8 +25,8 @@ export const printCorrect = () => {
     console.log('Correct!');
 }
 
-export const printUncorrect = (answer, desigion, name) => {
-    console.log(`${answer} is wrong answer ;(. Correct answer was ${desigion}.\n Let's try again, ${name}!` )
+export const printUncorrect = (answer, decision, name) => {
+    console.log(`"${answer}" is wrong answer ;(. Correct answer was "${decision}".\n Let's try again, ${name}!` )
 }
 
 export const printFinish = (name) => {

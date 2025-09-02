@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 import { askName, randomNumber, yourAnswer, evenQuestion, printUncorrect, printCorrect, printFinish } from '../src/cli.js';
 
@@ -8,17 +9,20 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 let correctAnswer = 0;
 while (correctAnswer < 3) {
-  let  number = randomNumber();
+  const  number = randomNumber();
   evenQuestion(number);
-  let answer = yourAnswer();
-  const desigion = number % 2 === 0 ? 'yes' : 'no';
-  if (answer === desigion){
+  const answer = yourAnswer();
+  const decision = number % 2 === 0 ? 'yes' : 'no';
+  
+  if (answer === decision){
     printCorrect();
     correctAnswer += 1;
   } else {
-    printUncorrect(answer, desigion, name);
+    printUncorrect(answer, decision, name);
     break;
-  }
+  } 
+  if (correctAnswer === 3){
 printFinish(name);
+  }
 }
 
