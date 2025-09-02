@@ -10,3 +10,9 @@ export const randomNumber = (min = 1, max = 100) => {
     
     return Math.floor(Math.random() * (max - 1 + min) + min);
 }
+
+export const yourAnswer = () => {
+    const answer = readlineSync.question('Your answer: ');
+
+    return answer;
+}
