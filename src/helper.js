@@ -1,4 +1,4 @@
-import {askName, yourAnswer} from '../src/cli.js'
+import { askName } from '../src/cli.js'
 
 export const randomNumber = (min = 1, max = 100) => {
     

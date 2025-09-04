@@ -1,5 +1,5 @@
 import { yourAnswer } from '../src/cli.js';
-import {randomNumber ,  getRandomOperation } from '../src/helper.js';
+import { randomNumber } from '../src/helper.js';
 
 
 const evenGame = {
