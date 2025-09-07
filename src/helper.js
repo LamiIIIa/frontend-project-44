@@ -37,3 +37,4 @@ export const currentElement = (i, step, start) => {
 
     return start + step * i;
 }
+
