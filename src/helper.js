@@ -32,3 +32,8 @@ export const sayHello = () => {
 const name = askName();
 console.log(`Hello, ${name}!`);
 }
+
+export const currentElement = (i, step, start) => {
+
+    return start + step * i;
+}
