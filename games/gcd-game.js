@@ -1,5 +1,5 @@
-import { yourAnswer } from '../src/cli.js';
-import {randomNumber} from '../src/helper.js';
+import { yourAnswer } from '../src/cli.js'
+import {randomNumber} from '../src/helper.js'
 
 const gcdGame = {
     description: 'Find the greatest common divisor of given numbers.',

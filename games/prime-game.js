@@ -1,5 +1,5 @@
-import { yourAnswer } from '../src/cli.js';
-import { randomNumber } from '../src/helper.js';
+import { yourAnswer } from '../src/cli.js'
+import { randomNumber } from '../src/helper.js'
 
 const primeGame = {
     description: 'Answer "yes" if given number is prime. Otherwise answer "no"',

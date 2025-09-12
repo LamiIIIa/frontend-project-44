@@ -2,4 +2,3 @@
 import { sayHello } from '../src/helper.js'
 
 sayHello()
-

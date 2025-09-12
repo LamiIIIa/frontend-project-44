@@ -1,5 +1,5 @@
-import { yourAnswer } from '../src/cli.js';
-import {randomNumber ,  getRandomOperation } from '../src/helper.js';
+import { yourAnswer } from '../src/cli.js'
+import {randomNumber ,  getRandomOperation } from '../src/helper.js'
 
 
 const calcGame = {
@@ -29,4 +29,3 @@ const calcGame = {
 }
 
 export default calcGame;
-

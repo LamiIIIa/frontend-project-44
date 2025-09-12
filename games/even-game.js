@@ -1,5 +1,5 @@
-import { yourAnswer } from '../src/cli.js';
-import { randomNumber } from '../src/helper.js';
+import { yourAnswer } from '../src/cli.js'
+import { randomNumber } from '../src/helper.js'
 
 
 const evenGame = {
@@ -17,4 +17,3 @@ const evenGame = {
 }
 
 export default evenGame;
-
