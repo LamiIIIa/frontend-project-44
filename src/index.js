@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
-import { printUncorrect, printCorrect, printFinish, sayHello, evenQuestion } from '../src/helper.js'
+import { printUncorrect, printCorrect, printFinish, evenQuestion } from '../src/helper.js';
+import { askName } from '../src/cli.js';
 
 
 const gameLaunch = (gameLogic) => {
-const name = sayHello();
+ console.log('Welcome to the Brain Games!');
+const name = askName();
+console.log(`Hello, ${name}!`);
 console.log(gameLogic.description);
 
 let correctAnswer = 0;
