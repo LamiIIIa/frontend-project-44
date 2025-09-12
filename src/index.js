@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { printUncorrect, printCorrect, printFinish, evenQuestion } from '../src/helper.js';
+import { printUncorrect, printCorrect, printFinish, printQuestion } from '../src/helper.js';
 import { askName } from '../src/cli.js';
 
 
@@ -14,7 +14,7 @@ let correctAnswer = 0;
 const rounds = 3;
 while (correctAnswer < rounds) {
     const question = gameLogic.getQuestion();
-    evenQuestion(question.text);
+    printQuestion(question.text);
     const answer = gameLogic.getAnswer();
 
     const decision = gameLogic.getDecision(question);
