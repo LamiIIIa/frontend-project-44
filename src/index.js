@@ -21,7 +21,8 @@ const gameLaunch = (gameLogic) => {
     if (decision === answer) {
       printCorrect()
       correctAnswer += 1
-    } else {
+    }
+    else {
       printUncorrect(answer, decision, name)
       break
     }
