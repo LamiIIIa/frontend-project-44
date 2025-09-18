@@ -1,4 +1,4 @@
-import { yourAnswer } from '../src/cli.js'
+import { yourAnswer } from '../cli.js'
 import { randomNumber } from '../src/helper.js'
 
 const evenGame = {
