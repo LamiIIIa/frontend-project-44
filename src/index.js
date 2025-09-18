@@ -4,7 +4,7 @@ import {
   printCorrect,
   printFinish,
   printQuestion,
-} from '../helper.js'
+} from './helper.js'
 import { askName } from '../src/cli.js'
 const gameLaunch = (gameLogic) => {
   console.log('Welcome to the Brain Games!')
