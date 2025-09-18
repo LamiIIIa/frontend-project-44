@@ -1,5 +1,5 @@
 import { yourAnswer } from '../cli.js'
-import { randomNumber, currentElement } from '../src/helper.js'
+import { randomNumber, currentElement } from '../helper.js'
 
 const progGame = {
   description: 'What number is missing in the progression?',

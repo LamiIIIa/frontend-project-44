@@ -1,5 +1,5 @@
 import { yourAnswer } from '../cli.js'
-import { randomNumber, getRandomOperation } from '../src/helper.js'
+import { randomNumber, getRandomOperation } from '../helper.js'
 
 const calcGame = {
   description: 'What is the result of the expression?',

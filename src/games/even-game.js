@@ -1,5 +1,5 @@
 import { yourAnswer } from '../cli.js'
-import { randomNumber } from '../src/helper.js'
+import { randomNumber } from '../helper.js'
 
 const evenGame = {
   description: 'Answer "yes" if the number is even, otherwise answer "no".',
