@@ -1,4 +1,4 @@
-import { askName } from '../cli.js'
+import { askName } from './cli.js'
 export const randomNumber = (min = 1, max = 100) => {
   return Math.floor(Math.random() * (max - 1 + min) + min)
 }
